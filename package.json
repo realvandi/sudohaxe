@@ -5,10 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "static": "next build && next export && touch ./out/.nojekyll && echo 'sudohaxe.com' > ./out/CNAME",
-    "deploy": "gh-pages -d out -t true"
+    "static": "next build && touch ./out/.nojekyll && echo 'sudohaxe.com' > ./out/CNAME",
+    "deploy": "gh-pages -d out -t true"start": "next start","lint": "next lint",
   },
   "dependencies": {
     "react": "^18",
