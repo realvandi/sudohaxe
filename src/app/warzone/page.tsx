@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -29,7 +27,7 @@ export default function Home() {
           priority
         /> */}
         <p className=" font-normal from-neutral-200 to-green-600 text-[5rem] md:text-[10rem]">
-          <b>SUDO</b>
+          <b>AAAAAAAAAA</b>
         </p>
         <p className=" font-normal from-neutral-200 to-green-600 text-[5rem] md:text-[10rem]">
           HAXE
@@ -71,7 +69,7 @@ export default function Home() {
           </p>
         </a>
         <a
-          href="/sudohaxe/warzone"
+          href="/warzone"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -83,7 +81,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            {`This is where I dump all my experiments. There is no way back.`}
+            {`This is where I dump all my experiments.`}
           </p>
         </a>
       </div>
