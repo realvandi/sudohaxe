@@ -28,10 +28,10 @@ export default function Home() {
           height={37}
           priority
         /> */}
-        <p className=" font-normal from-neutral-200 to-green-600 text-[5rem] md:text-[10rem]">
+        <p className=" font-normal from-neutral-200 to-green-600 text-[5rem] md:text-[10rem] leading-none">
           <b>SUDO</b>
         </p>
-        <p className=" font-normal from-neutral-200 to-green-600 text-[5rem] md:text-[10rem]">
+        <p className=" font-normal from-neutral-200 to-green-600 text-[5rem] md:text-[10rem] leading-none">
           HAXE
         </p>
       </div>
