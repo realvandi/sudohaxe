@@ -8,7 +8,7 @@
     "static": "next build && touch ./out/.nojekyll && echo 'sudohaxe.com' > ./out/CNAME",
     "deploy": "gh-pages -d out -t true",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "^18",
