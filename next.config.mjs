@@ -2,7 +2,12 @@
 const nextConfig = {
   output: "export",
   basePath: "/sudohaxe",
-  // process.env.NEXT_PUBLIC_NODE_ENV === "PRODUCTION" ? "/sudohaxe" : "", //DUE TO GH PAGES
+  images: {
+    unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/sudohaxe",
+  },
 };
 
 export default nextConfig;
